@@ -17,3 +17,9 @@ jobs:
       run: ./gradlew build
     - name: unit test with Gradle
       run: ./gradlew test
+    - name: Generate the artifacts
+      uses: scoring/github-action-build@master
+    - name: Upload the artifacts
+      uses: scoring/github-action-publish-binaries@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
