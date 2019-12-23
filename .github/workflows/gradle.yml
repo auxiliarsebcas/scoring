@@ -17,9 +17,3 @@ jobs:
       run: ./gradlew build
     - name: unit test with Gradle
       run: ./gradlew test
-    - name: Generate the artifacts
-      uses: auxiliarsebcas/scoring
-    - name: Upload the artifacts
-      uses: auxiliarsebcas/scoring
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
