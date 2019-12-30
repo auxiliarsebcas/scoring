@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.iml" filepath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/jobsity.test.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/jobsity.test.protocol.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoring.iml" filepath="$PROJECT_DIR$/.idea/modules/scoring.iml" />
     </modules>
   </component>
 </project>

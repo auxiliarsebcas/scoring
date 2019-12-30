@@ -1,21 +1,16 @@
-plugins {
-    id 'java-library'
-    id 'idea'
-    id 'application'
-}
+apply plugin: 'idea'
 
-group = 'jobsity.test'
-version = '0.0.1-SNAPSHOT'
-
-repositories {
-    jcenter()
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'com.google.guava:guava:27.0.1-jre'
+subprojects {
+    apply plugin: 'java'
     
-    testImplementation 'junit:junit:4.12'
-}
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
 
-mainClassName = 'jobsity.test.App'
+    group = 'jobsity.test'
+    version = '0.0.1'
+
+    sourceCompatibility = 1.8
+}
