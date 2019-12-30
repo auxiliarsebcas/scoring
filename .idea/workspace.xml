@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a96b04a-426f-4e6f-a080-a1ec53cf3938" name="Default Changelist" comment="" />
+    <list default="true" id="0a96b04a-426f-4e6f-a080-a1ec53cf3938" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jobsity.test.scoring.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobsity/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/jobsity/test/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jobsity/test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/jobsity/test/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core/build/" />
+    <ignored path="$PROJECT_DIR$/core/out/" />
+    <ignored path="$PROJECT_DIR$/'protocol'/.gradle/" />
+    <ignored path="$PROJECT_DIR$/'protocol'/build/" />
+    <ignored path="$PROJECT_DIR$/'protocol'/out/" />
+    <ignored path="$PROJECT_DIR$/protocol/.gradle/" />
+    <ignored path="$PROJECT_DIR$/protocol/build/" />
+    <ignored path="$PROJECT_DIR$/protocol/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,50 +52,257 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jobsity/test/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/Rules.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jobsity/test/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-165">
+              <caret line="37" column="61" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="61" />
               <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1053#1066#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/scoring/domain/RulesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="445">
+              <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/repositories/ScoringRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/ScoringEnvironment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/configuration/ScoringConfigurationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/configuration/ScoringConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/cassandra/transformers/ReleaseResultToRecordTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="91" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="30" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/commands/ProcessReleaseResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2037#2089#0" expanded="true" />
+                <element signature="e#2113#2157#0" expanded="true" />
+                <element signature="e#2188#2232#0" expanded="true" />
+                <element signature="e#3128#3156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/daos/ReleaseResultByGameId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>combine</find>
+      <find>fromFuture</find>
+      <find>new EitherT</find>
+      <find>toList</find>
+      <find>InternalError</find>
+      <find>List</find>
+      <find>unitStream</find>
+      <find>empty</find>
+      <find>head</find>
+      <find>list</find>
+      <find>append</find>
+      <find>Some&lt;T&gt;</find>
+      <find>Some</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/jobsity/test/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/jobsity/test/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jobsity/test/scoring/domain/ReleaseResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jobsity/test/scoring/commands/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jobsity/test/scoring/commands/ProcessReleaseResult.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/protocol/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/test/java/jobsity/test/AppTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/tranformers/ReleaseResultToRecord.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/cassandra/transformers/ReleaseResultToRecordTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/configuration/CassandraConfiguration.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/configuration/ScoringConfigurationTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/databases/ScoringDataBase.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/ScoringEnvironment.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/errors/ExternalError.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/repositories/ScoringRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/repositories/ScoringRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/App.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/errors/InternalError.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/events/ReleaseResultProcessed.java" />
+        <option value="$PROJECT_DIR$/protocol/src/main/proto/scoring.proto" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/services/KafkaServiceContiner.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/services/ProcessReleaseResultHandle.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/ReleaseResult.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/GameResult.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/ScoreResult.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/Frame.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/valueObjects/StrinkeBonus.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/valueObjects/StrikeBonus.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/valueObjects/SpareBonus.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/records/ReleaseResultRecord.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/tranformers/RecordTransformer.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/commands/ProcessReleaseResult.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/daos/ReleaseResultByGameId.java" />
+        <option value="$PROJECT_DIR$/core/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/configuration/ScoringConfiguration.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/Rules.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/jobsity/test/scoring/domain/RulesTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1061" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -80,17 +320,25 @@
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -98,6 +346,7 @@
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -106,6 +355,87 @@
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+              <item name="records" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cassandra" type="462c0819:PsiDirectoryNode" />
+              <item name="tranformers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -115,12 +445,33 @@
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scoring" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -128,10 +479,57 @@
             <path>
               <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protocol" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protocol" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protocol" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="scoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="protocol" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,10 +539,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service-lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jobsity.test.scoring.domain" />
+      <recent name="jobsity.test.scoring.domain.valueObjects" />
+      <recent name="jobsity.test.scoring.domain.errors" />
+      <recent name="jobsity.test.infrastructure.cassandra.transformers" />
+      <recent name="jobsity.test.infrastructure.configuration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,16 +617,16 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Graph Database Console" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Graph Database Console" weight="0.32946146" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.22046414" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.22069694" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -229,34 +644,434 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/reactive/ReactiveSeq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-12">
+          <caret line="2275" column="1" selection-start-line="2275" selection-start-column="1" selection-end-line="2275" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jobsity/test/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/repositories/ScoringRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="520">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1567#1610#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jobsity/test/App.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/InternalError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/errors/ApplicationError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops-anym/10.3.0/e1f944a3b88fe8001fc880d9e222264ca808c14d/cyclops-anym-10.3.0-sources.jar!/cyclops/monads/AnyM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="876" column="42" selection-start-line="876" selection-start-column="42" selection-end-line="876" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/control/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="1078" column="32" selection-start-line="1078" selection-start-column="32" selection-end-line="1078" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vavr/vavr/0.9.3/5a63b1f896a41f45b9f2da75b7911d57a3cc3ade/vavr-0.9.3-sources.jar!/io/vavr/Tuple4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jobsity/test/service-lib/0.0.1/service-lib-0.0.1.jar!/jobsity/test/Event.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops-anym/10.3.0/e1f944a3b88fe8001fc880d9e222264ca808c14d/cyclops-anym-10.3.0-sources.jar!/cyclops/monads/transformers/EitherT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="150" column="101" selection-start-line="150" selection-start-column="101" selection-end-line="150" selection-end-column="101" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/control/Either.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="374" column="22" selection-start-line="374" selection-start-column="22" selection-end-line="374" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/events/ReleaseResultProcessed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jobsity/test/scoring-protocol/0.0.1/scoring-protocol-0.0.1.jar!/jobsity/test/scoring/protocol/Scoring.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="230" column="46" selection-start-line="230" selection-start-column="46" selection-end-line="230" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.0/357aa1cd54ee23c89fd58d0f2debe1797f1711b4/protobuf-java-3.11.0-sources.jar!/com/google/protobuf/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="422" column="12" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/services/KafkaServiceContiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/com/oath/cyclops/types/foldable/Folds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="684" column="21" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="21" />
+          <folding>
+            <element signature="e#20634#20635#0" expanded="true" />
+            <element signature="e#20675#20676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/services/ProcessReleaseResultHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="153" column="17" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/data/NonEmptyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="466" column="41" selection-start-line="466" selection-start-column="41" selection-end-line="466" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#5195#5196#0" expanded="true" />
+            <element signature="e#5222#5223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/ReleaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="2375" column="30" selection-start-line="2375" selection-start-column="30" selection-end-line="2375" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="460" column="29" selection-start-line="460" selection-start-column="29" selection-end-line="460" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/data/ImmutableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="279" column="32" selection-start-line="279" selection-start-column="28" selection-end-line="279" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oath.cyclops/cyclops/10.3.0/587adf3f8026e7d244407478855d1f6379e2598/cyclops-10.3.0-sources.jar!/cyclops/data/HList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/GameResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/valueObjects/StrikeBonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/valueObjects/SpareBonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/records/ReleaseResultRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jobsity/test/service-lib/0.0.1/service-lib-0.0.1.jar!/jobsity/test/util/TimeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/tranformers/RecordTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/ScoreResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/src/main/proto/scoring.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/commands/ProcessReleaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2037#2089#0" expanded="true" />
+            <element signature="e#2113#2157#0" expanded="true" />
+            <element signature="e#2188#2232#0" expanded="true" />
+            <element signature="e#3128#3156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/adapters/cassandra/daos/ReleaseResultByGameId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/cassandra/transformers/ReleaseResultToRecordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/infrastructure/configuration/ScoringConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/domain/Rules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1053#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/scoring/domain/RulesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/infrastructure/configuration/ScoringConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/repositories/ScoringRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/scoring/ScoringEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/jobsity/test/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="91" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="30" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/jobsity/test/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -313,12 +1128,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test|scoring</last-edited>
+          <last-edited>jobsity.test.scoring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

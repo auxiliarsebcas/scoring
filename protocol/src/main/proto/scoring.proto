@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package jobsity.test.scoring.protocol;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/timestamp.proto";
+
+message ProcessReleaseResultRequest {
+    string game_name                     = 1;
+    string gamer_name                    = 2;
+    int32 release_number                 = 3;
+    int32 score                          = 4;
+    google.protobuf.Timestamp time_stamp = 5;
+}

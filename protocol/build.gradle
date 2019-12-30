@@ -1,0 +1,42 @@
+plugins {
+    id "com.google.protobuf" version "0.8.8"
+    id "java-library"
+    id "idea"
+    id "maven-publish"
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.grpc:grpc-protobuf:1.26.0'
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.11.0'
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.26.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            groupId 'jobsity.test'
+            artifactId 'scoring-protocol'
+            version '0.0.1'
+        }
+    }
+}
